@@ -14,8 +14,4 @@ return res.status(200).json([]); // return empty list if no file
 return res.status(500).json({ message: error.message });
 }
 }
-<<<<<<< Updated upstream
 module.exports = { viewResources };
-=======
-module.exports = { viewResources }
->>>>>>> Stashed changes
