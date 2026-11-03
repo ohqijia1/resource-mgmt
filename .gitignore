@@ -147,7 +147,3 @@ vite.config.ts.timestamp-*
 
 # Turbo Repo
 .turbo
-
-
-#JSON Data files
-utils/resources.json
