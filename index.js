@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 var express = require('express');
 var bodyParser = require("body-parser");
 var app = express();
@@ -20,3 +21,7 @@ server = app.listen(PORT, function () {
     console.log(`Demo project at: ${baseUrl}`);
 });
 module.exports = { app, server }
+=======
+const { viewResources } = require('./utils/ViewResourceUtil')
+app.get('/view-resources', viewResources)
+>>>>>>> Stashed changes
